@@ -1,0 +1,132 @@
+
+body
+{
+	font-family:Arial,sans-serif;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+}
+header
+{
+	background:cyan;
+	color:blue;
+	padding:10px 0;
+}
+section
+{
+	padding:20px;
+}
+nav ul
+{
+	list-style:none;
+	padding:0;
+}
+nav ul li
+{
+	display:inline;
+	margin:0 15px;
+}
+nav ul li a 
+{
+	color:brown;
+	text-decoration:none;
+}
+main
+{
+	padding:20px;
+	margin-left:100px;
+}
+h1
+{
+	margin-left:20px;
+	padding-left:10px;
+}
+footer
+{
+	text-align:center;
+	margin-top:20px;
+	background:cyan;
+	color:brown;
+	padding:10px 0;
+}
+form
+{
+	display:flex;
+	flex-direction:column;
+}
+form input,form textarea,form Button
+{
+	margin:10px 0;
+	padding:10px;
+}
+.social-links
+{
+	margin-top:10px;
+}
+.social-links a 
+{
+	margin:0 10px;
+	text-decoration:none;
+	color:grey;
+}
+.social-links a i
+{
+	color:green;
+}
+.social-links a:hover
+{
+	text-decoration:underline;
+	color:blue;
+}
+* 3 columns */
+.social-links a:hover i 
+{
+	color:red;
+}
+body
+{
+	font-family:Arial,sans-serif;
+	background-color:0f0f0;
+	padding:20px;
+}
+.image-grid
+{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	gap:20px;
+	width:100%;
+}
+.image
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-color:ffffff;
+	padding:20px;
+	border-radius:10px;
+	box-shadow:0 4px 8px gba(0,0,0,0.1);
+}
+.image img
+{
+	width:200px;
+	height:auto;
+	margin-bottom:10px;
+}
+.image-text
+{
+	text-align:center;
+}
+.gallery-item
+{
+	width:240px;
+	height:160px;
+	margin:10px;
+	vertical-align:top;
+	display:inline-block;
+}
+.gallery-item video
+{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
