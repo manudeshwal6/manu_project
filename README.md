@@ -1,2 +1,2 @@
 # manu_project
-Graphics &amp; Web Designer
+Web Designing
