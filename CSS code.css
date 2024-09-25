@@ -8,8 +8,8 @@ body
 }
 header
 {
-	background:fdddaa;
-	color:blue;
+	background:cyan;
+	color:brown;
 	padding:10px 0;
 }
 section
@@ -45,7 +45,7 @@ footer
 {
 	text-align:center;
 	margin-top:20px;
-	background:fdddaa;
+	background:cyan;
 	color:brown;
 	padding:10px 0;
 }
@@ -86,7 +86,7 @@ form input,form textarea,form Button
 body
 {
 	font-family:Arial,sans-serif;
-	background-color:0f0f0;
+	background-color:fdddaa;
 	padding:20px;
 }
 .image-grid
