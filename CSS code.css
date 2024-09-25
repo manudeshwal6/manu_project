@@ -9,7 +9,7 @@ body
 header
 {
 	background:cyan;
-	color:brown;
+	color:blue;
 	padding:10px 0;
 }
 section
@@ -46,7 +46,7 @@ footer
 	text-align:center;
 	margin-top:20px;
 	background:cyan;
-	color:brown;
+	color:blue;
 	padding:10px 0;
 }
 form
