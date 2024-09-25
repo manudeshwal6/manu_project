@@ -67,7 +67,7 @@ form input,form textarea,form Button
 {
 	margin:0 10px;
 	text-decoration:none;
-	color:grey;
+	color:red;
 }
 .social-links a i
 {
@@ -76,7 +76,7 @@ form input,form textarea,form Button
 .social-links a:hover
 {
 	text-decoration:underline;
-	color:blue;
+	color:red;
 }
 * 3 columns */
 .social-links a:hover i 
